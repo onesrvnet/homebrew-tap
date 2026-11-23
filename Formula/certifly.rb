@@ -2,28 +2,28 @@
 class Certifly < Formula
   desc "SSH access with short-lived certificates from certifly"
   homepage "https://github.com/onesrvnet/certifly"
-  version "0.2.2"
+  version "0.2.3"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.2/certifly_0.2.2_darwin_arm64.tar.gz"
-      sha256 "60a33d85a552fb80052c9eb45bb86b461d4c47722b5b96798a36374bc4f2f43d"
+      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.3/certifly_0.2.3_darwin_arm64.tar.gz"
+      sha256 "6a438ac5d7f0462a9d84b8424babd3e9c8efae7d7e3a5a641a370ae9611914c8"
     end
     on_intel do
-      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.2/certifly_0.2.2_darwin_amd64.tar.gz"
-      sha256 "26faa15102a6a9510860df00ffbfdd3e77c73892165eaa84ad4bd1359d423fa6"
+      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.3/certifly_0.2.3_darwin_amd64.tar.gz"
+      sha256 "31e558c8b8beddc3a506787fa409f26b1fabf0d4281cd37ed2a0136804d5e067"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.2/certifly_0.2.2_linux_arm64.tar.gz"
-      sha256 "be9c77fea181d3af092953cf15d31df0b16bd2ef0454aad0e99d681c1af2faaf"
+      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.3/certifly_0.2.3_linux_arm64.tar.gz"
+      sha256 "8799d0bf187b2647ae623a3d734f0a31e6f6d4251e196d597c07827bedb63edd"
     end
     on_intel do
-      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.2/certifly_0.2.2_linux_amd64.tar.gz"
-      sha256 "a6f95029952c97e8bfc662c83b6666b1b2165b69df3a0b17b9538c6a471366eb"
+      url "https://github.com/onesrvnet/certifly/releases/download/v0.2.3/certifly_0.2.3_linux_amd64.tar.gz"
+      sha256 "67241d6175366c05f83a56f308c583fd43004fbe9242675fdee774adeadf6e58"
     end
   end
 
