@@ -8,22 +8,22 @@ class Certifly < Formula
   on_macos do
     on_arm do
       url "https://github.com/onesrvnet/certifly/releases/download/v0.2.0/certifly_0.2.0_darwin_arm64.tar.gz"
-      sha256 "52d27a7cf19d58f7b3a9fde9a291b57da2df368842c82760b9dd8edcea8ca9e1"
+      sha256 "7fe416fd4543264f402cacd9116672f3cfad6b438eb8d92dcdbf1755f22a84d1"
     end
     on_intel do
       url "https://github.com/onesrvnet/certifly/releases/download/v0.2.0/certifly_0.2.0_darwin_amd64.tar.gz"
-      sha256 "a307d8e0c058a1d47e1420f74cb91a643f9fd121b3185df2db52145e4931f06e"
+      sha256 "47d3137cb511e5b5df5dbdb7b054179557c8e1d5a3604440529b82df9855f1b8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/onesrvnet/certifly/releases/download/v0.2.0/certifly_0.2.0_linux_arm64.tar.gz"
-      sha256 "15ab910cce3b13366988bbf22bcf310032a44f1c7d1ee635cc3a629df59c9077"
+      sha256 "71d3872b97e7309d3f2f9eac21e5a4857ad3c3c651e7226aa02d997a36d8c292"
     end
     on_intel do
       url "https://github.com/onesrvnet/certifly/releases/download/v0.2.0/certifly_0.2.0_linux_amd64.tar.gz"
-      sha256 "d5f94cb636435d1ff7f31db8568544d55963346bdfba1ccde1b37df6e5f8e2e3"
+      sha256 "97a062b042c3b64589702ecc5dd9c2d7a448f7d75a589bea1f23a2845a68e687"
     end
   end
 
